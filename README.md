@@ -1,9 +1,7 @@
 # Streaming-Data-into-pipeline-in-near--realtime-using-Kafka-Spark
 
 The objective is to be able to have data in a platform to run streaming data pipeline.
-In this ,we 
-• produce the content of a CSV file to a Kafka topic,
-• consume messages from a Kafka topic
+In this ,we produce the content of a CSV file to a Kafka topic,consume messages from a Kafka topic
 
 Produce trips.txt file to Kafka using kafka-console-producer. Each line is one message.
 Consume the trip topic into your application 
