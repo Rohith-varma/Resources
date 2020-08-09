@@ -1,7 +1,11 @@
 # Streaming-Data-into-pipeline-in-near--realtime-using-Kafka-Spark
 
-The objective is to be able to have data in a platform to run streaming data pipeline.
-In this ,we produce the content of a CSV file to a Kafka topic,consume messages from a Kafka topic
+We get the information of STM every day and need to run an ETL pipeline to enrich data for reporting
+and analysis purpose in real-time. Data is split in two
+1. A set of tables that build dimension (batch style)
+2. Trips that needed to be enriched for analysis and reporting (streaming)
+In order to be able to run streaming analysis with a platform such as Spark Streaming, we need to have
+the records in a streaming platform such as Kafka.
 
 Produce trips.txt file to Kafka using kafka-console-producer. Each line is one message.
 Consume the trip topic into your application 
