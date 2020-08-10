@@ -1,5 +1,7 @@
 # Streaming-Data-into-pipeline-in-near--realtime-using-Kafka-Spark
 
+#Run the KafkaProject file
+
 We get the information of STM every day and need to run an ETL pipeline to enrich data for reporting
 and analysis purpose in real-time. Data is split in two
 1. A set of tables that build dimension (batch style)
